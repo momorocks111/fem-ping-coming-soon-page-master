@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- displays site properly based on user's device -->
+
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="32x32"
+      href="images/favicon-32x32.png"
+    />
+    <link rel="stylesheet" href="style.css" />
+    <link
+      href="https://cdn.jsdelivr.net/npm/remixicon@3.5.0/fonts/remixicon.css"
+      rel="stylesheet"
+    />
+
+    <title>Frontend Mentor | Ping coming soon page</title>
+
+    <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
+    <style>
+      .attribution {
+        font-size: 11px;
+        text-align: center;
+      }
+      .attribution a {
+        color: hsl(228, 45%, 44%);
+      }
+    </style>
+  </head>
+  <body>
+    <header class="header">
+      <img src="images/logo.svg" alt="logo" class="header__img" />
+    </header>
+
+    <main class="main">
+      <section class="main-section">
+        <div class="container">
+          <h2 class="title">We are launching <span>soon!</span></h2>
+          <p class="subtitle">Subscribe and get notified</p>
+          <form action="" id="form">
+            <div class="input__field" id="input-field">
+              <input
+                type="email"
+                id="email"
+                placeholder="Your email address..."
+                class="email__input"
+              />
+              <p class="form__error" id="form-error">
+                Please provide a valid email address
+              </p>
+            </div>
+            <button type="submit" class="submit__btn" id="submit-btn">
+              Notify Me
+            </button>
+          </form>
+
+          <img
+            src="images/illustration-dashboard.png"
+            alt="image"
+            class="body__img"
+          />
+        </div>
+      </section>
+      <section class="footer-section">
+        <div class="footer__container">
+          <div class="footer_logos">
+            <i class="ri-facebook-fill footer__link"></i>
+            <i class="ri-twitter-fill footer__link"></i>
+            <i class="ri-instagram-line footer__link"></i>
+          </div>
+          <p class="footer__copy">
+            &copy; Copyright Ping. All rights reserved.
+          </p>
+        </div>
+      </section>
+    </main>
+    <footer>
+      <p class="attribution">
+        Challenge by
+        <a href="https://www.frontendmentor.io?ref=challenge" target="_blank"
+          >Frontend Mentor</a
+        >. Coded by <a href="#">momorocks111</a>.
+      </p>
+    </footer>
+    <script src="script.js"></script>
+  </body>
+</html>
